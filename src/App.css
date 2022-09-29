@@ -1,38 +1,76 @@
-.App {
+.App{
+  width: 95%;
+  margin: auto;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  padding: 30px 10px;
+  background-color: rgba(238, 219, 238, 0.914);
+}
+body{
+  background-color: aliceblue;
+}
+p,li{
+  font-size: 18px;
+}
+h1{
+  margin-top: 0px;
   text-align: center;
+  background-color: rgba(221, 160, 221, 0.736);
+  color: indigo;
+  padding: 20px 0;
+  border-radius: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr{
+  height: 1.5px;
+  background-color: purple;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.one{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+pre{
+  font-size: 20px;
+  color: royalblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  padding: 10px 50px;
+  margin: 10px 50px;
+  border: none;
+  background-color: darkblue;
+  color: aqua;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+button:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  background-color: orange;
+  color: darkblue;
+}
+input{
+  padding: 10px 50px;
+  margin: 10px 50px;
+  border: none;
+  background-color: greenyellow;
+  color: red;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+input:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: grey;
+  color: aquamarine;
+}
+textarea{
+  margin-top: 10px;
+  margin-left: 2%;
+  border: none;
+  padding: 10px 10px;
+  background-color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: red;
 }
